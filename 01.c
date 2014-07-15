@@ -17,7 +17,7 @@ int main(void)
   
   imsip = &imsi;
   
-  printf("&imsi [%#010x]\n", &imsi)
+  printf("&imsi [%#010x]\n", &imsi);
   
   printf("imsip [%#p]\n", imsip);
   printf("&imsip [%#p]\n", &imsip);
