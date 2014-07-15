@@ -12,9 +12,14 @@ printf(%#010x\n, imsip);
 
 int main(void)
 {
+  int imsi = 5;
   int *imsip;
   
-  printf("%p\n", imsip);
-  printf("%p\n", &imsip);
-  printf("%#x\n", &imsip);
+  imsip = &imsi;
+  
+  printf("&imsi [%#010x]\n", &imsi)
+  
+  printf("imsip [%#p]\n", imsip);
+  printf("&imsip [%#p]\n", &imsip);
+  printf("&imsip [%#x]\n", &imsip);
 }
