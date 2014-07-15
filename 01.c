@@ -22,4 +22,6 @@ int main(void)
   printf("imsip [%#p]\n", imsip);
   printf("&imsip [%#p]\n", &imsip);
   printf("&imsip [%#x]\n", &imsip);
+  
+  printf("&*imsip [%#x]\n", &*imsip); // 얻어들인 5라는 값이 저장된 곳의 위치를 뜻한다. &imsi == imsip == &*imsip
 }
