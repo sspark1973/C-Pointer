@@ -46,7 +46,7 @@ int main(void)
   imsipa2 = imsia2;
   /* ++, --, &, * 등의 우선순위는 같다. 하지만 right to left의 결합성
     그러므로 *imsipa2++ == *(imsipa2++) */
-  for(i=0, i < 3, i++)
+  for(i=0; i < 3; i++)
     printf("%d\n", *imsipa2++);
 
   return 0;
