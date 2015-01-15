@@ -17,5 +17,10 @@ int main(int argc, char **argv, char **env)
 		printf("env[%d] = [%s]\n", i, *env++);
 	}
 
+	for (; *env; env++) {
+		printf("env = [%s]\n", *env);
+	}
+
+
 	return 0;
 }
